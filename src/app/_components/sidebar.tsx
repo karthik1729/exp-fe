@@ -12,6 +12,7 @@ const items = {
       { name: 'Networking', path: '/networking', Icon:Network },
       { name: 'Storage', path: '/storage', Icon: Database },
       { name: 'Maintanance', path: '/maintanance', Icon: Settings },
+      { name: 'Clusters', path: '/clusters', Icon: Cpu }, // P678f
     ],
     bottomNavItems:[
       { name: 'Settings', path: '/settings', Icon: Settings2 },
@@ -24,7 +25,7 @@ const items = {
       { name: 'Nodepools', path: `/clusters/${clusterId}/nodepools`, Icon:Cpu },
       { name: 'Logs', path: `/clusters/${clusterId}/logs`, Icon:Network },
       { name: 'Storage', path: `/clusters/${clusterId}/storage`, Icon: Database },
-      
+      { name: 'Cluster Details', path: `/clusters/${clusterId}`, Icon: Cpu }, // P388b
     ],
     bottomNavItems:[
       { name: 'Connect', path: '/settings', Icon: Settings2 },
